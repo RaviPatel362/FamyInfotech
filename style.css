@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section_container {
+  width: 100%;
+  height: 100vh;
+}
+
+.common_section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+#who_we_are {
+  background-color: #fff;
+}
+.who_we_are_details_section .hero-title {
+  color: #fff;
+  background-color: #3a393a;
+  padding: 1.2rem;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  width: 100%;
+}
+.who_we_are_details_section .hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #7f7e82;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.who_we_are_details_section .hero-subtitle span {
+  color: #222267;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.who_we_are_details_section .content-text,
+.who_we_are_below_section .content-text {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+  word-break: break-word;
+}
+
+.who_we_are_below_section .content-text {
+  width: 90%;
+}
+
+.who_we_are_details_section .above_section {
+  padding: 3rem 0;
+}
+
+.who_we_are_below_section {
+  display: flex;
+  background: #f8f8f8;
+  gap: 3.5rem;
+  width: 1320px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.who_we_are_below_section img {
+  display: table-cell;
+  width: 49%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.who_we_are_below_section .section-title {
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+/* .who_we_are_below_section .section-title:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: #222267;
+  margin: 15px auto 0;
+  width: 20%;
+} */
+
+.who_we_are_below_section .highlight-box {
+  background-color: white;
+  border-left: 4px solid #222267;
+  padding: 20px;
+  margin: 30px 30px 30px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.count_numbers_section {
+  background-color: #222267;
+  padding: 5rem;
+  color: #fff;
+  margin: 0 0 3rem 0;
+}
+
+.count_numbers_section .counter--item {
+  align-items: center;
+  padding-left: 1.2rem;
+  border-left: 1px solid #fff;
+}
+
+/*Footer CSS*/
+#footer-wide {
+  background: #555;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}
+
+#footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
