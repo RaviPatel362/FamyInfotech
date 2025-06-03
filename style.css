@@ -14,13 +14,14 @@ body {
 .common_section {
   width: 100%;
   height: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 #who_we_are {
   background-color: #fff;
 }
-.who_we_are_details_section .hero-title {
+
+.hero-title {
   color: #fff;
   background-color: #3a393a;
   padding: 1.2rem;
@@ -33,7 +34,8 @@ body {
   line-height: 1.3;
   width: 100%;
 }
-.who_we_are_details_section .hero-subtitle {
+
+.hero-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
   color: #7f7e82;
@@ -42,14 +44,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.who_we_are_details_section .hero-subtitle span {
+.hero-subtitle span {
   color: #222267;
   font-size: 2rem;
   font-weight: 600;
 }
 
-.who_we_are_details_section .content-text,
-.who_we_are_below_section .content-text {
+.content-text {
   color: #555;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -58,10 +59,10 @@ body {
 }
 
 .who_we_are_below_section .content-text {
-  width: 90%;
+  width: 95%;
 }
 
-.who_we_are_details_section .above_section {
+.above_section {
   padding: 3rem 0;
 }
 
@@ -89,6 +90,7 @@ body {
   position: relative;
   text-align: center;
 }
+
 /* .who_we_are_below_section .section-title:after {
   content: "";
   display: block;
@@ -118,6 +120,44 @@ body {
   padding-left: 1.2rem;
   border-left: 1px solid #fff;
 }
+
+/* Our Business Section */
+
+.business_image_section {
+  background-color: #222267;
+  padding: 4rem;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.business_image_container_row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.business_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.business_image_container p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.business_image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 
 /*Footer CSS*/
 #footer-wide {
