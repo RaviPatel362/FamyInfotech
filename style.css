@@ -106,7 +106,7 @@ body {
 
 .count_numbers_section {
   background-color: #222267;
-  padding: 5rem;
+  padding: 4rem;
   color: #fff;
   margin: 0 0 3rem 0;
 }
@@ -120,7 +120,7 @@ body {
 /* Our Business Section */
 .business_image_section {
   background-color: #222267;
-  padding: 4rem;
+  padding: 3rem;
   color: #fff;
   align-items: center;
   display: flex;
@@ -249,7 +249,7 @@ body {
   float: left;
 }
 
-.testimonial--rating li + li {
+.testimonial--rating li+li {
   margin-left: 8px;
 }
 
@@ -267,8 +267,12 @@ body {
   top: 0;
 }
 
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+}
+
 .navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
+.navbar-nav .show>.nav-link {
   color: #222267;
   font-weight: 600;
 }
@@ -279,7 +283,7 @@ body {
 }
 
 .logo_img {
-  height: 80px;
+  height: 70px;
 }
 
 /*Footer CSS*/
@@ -294,4 +298,142 @@ body {
   color: #fff;
   text-align: center;
   padding: 20px;
+}
+
+/* Contact Section Styles */
+
+.contact-info,
+.contact-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+}
+
+.contact-info {
+  background-color: #fff;
+}
+
+.contact-form {
+  background-color: #fff;
+}
+
+.contact-info h3,
+.contact-form h3 {
+  color: #222267;
+  font-weight: 600;
+  border-bottom: 2px solid #222267;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.contact-info .fa {
+  color: #222267 !important;
+}
+
+.contact-info h5 {
+  color: #222267;
+  font-weight: 500;
+}
+
+.contact-info p {
+  color: #555;
+}
+
+.contact-form .form-label {
+  font-weight: 500;
+  color: #222267;
+}
+
+.contact-form .form-control {
+  border: 1px solid #e9ecef;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+}
+
+.contact-form .form-control:focus {
+  border-color: #222267 !important;
+  box-shadow: 0 0 0 0.2rem rgba(34, 34, 103, 0.15);
+  background-color: #fff;
+}
+
+.contact-form .btn-primary {
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  background-color: #222267;
+  border-color: #222267;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #1a1a4f;
+  border-color: #1a1a4f;
+}
+
+/* Carousel Styles */
+#mainCarousel {
+  margin-bottom: 3rem;
+}
+
+#mainCarousel .carousel-item {
+  height: 600px;
+}
+
+#mainCarousel .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(0.5);
+}
+
+#mainCarousel .carousel-caption {
+  bottom: 30%;
+  text-align: left;
+  left: 10%;
+  right: 10%;
+}
+
+#mainCarousel .carousel-caption h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#mainCarousel .carousel-caption p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#mainCarousel .carousel-indicators {
+  margin-bottom: 2rem;
+}
+
+#mainCarousel .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+#mainCarousel .carousel-indicators button.active {
+  opacity: 1;
+  background-color: #222267;
+}
+
+#mainCarousel .carousel-control-prev,
+#mainCarousel .carousel-control-next {
+  width: 5%;
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    gap: 1rem;
+  }
 }

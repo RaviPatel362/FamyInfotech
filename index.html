@@ -1,273 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FamyInfotech - Who We Are</title>
-    <!-- Bootstrap 5 CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FamyInfotech - Who We Are</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet" />
+</head>
 
-    <div class="section_container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#who_we_are">
-            <img src="img/Logo.jpg" alt="Logo" class="logo_img"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#who_we_are">Who we Are</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#our_business">Our Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#our_dealership">Our Dealership</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact_us">Contact Us</a>
-              </li>
-            </ul>
+<body>
+
+  <div class="section_container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#who_we_are">
+          <img src="img/Logo_1.jpg" alt="Logo" class="logo_img" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#who_we_are">Who we Are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our_business">Our Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our_dealership">Our Dealership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact_us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide11.jpg" class="d-block w-100" alt="Computer Services">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Professional Computer Services</h2>
+            <p>Expert solutions for all your computer needs</p>
           </div>
         </div>
-      </nav>
-      <!-- About Us Section -->
-      <section id="who_we_are" class="common_section">
-        <div class="who_we_are_details_section">
-          <h1 class="hero-title">About FamyInfotech</h1>
-          <div class="container above_section">
-            <h2 class="hero-subtitle">
-              Looking For A Fast & Reliable Service<br />
-              <span>From Experienced Professionals</span>
-            </h2>
+        <div class="carousel-item">
+          <img src="img/slide22.jpg" class="d-block w-100" alt="IT Products">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Premium Computer Products</h2>
+            <p>Authorized Dealer of Top IT Brands</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide1.jpg" class="d-block w-100" alt="Tech Support">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>24/7 Technical Support</h2>
+            <p>Always here when you need us</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
+    <!-- About Us Section -->
+    <section id="who_we_are" class="common_section">
+      <div class="who_we_are_details_section">
+        <h1 class="hero-title">About FamyInfotech</h1>
+        <div class="container above_section">
+          <h2 class="hero-subtitle">
+            Looking For A Fast & Reliable Service<br />
+            <span>From Experienced Professionals</span>
+          </h2>
+
+          <p class="content-text">
+            FamyInfotech is Authorized Distributor / Partner of Well Famous IT Company Since 1997. We providing you fast
+            and accurate computer repair and sales service.
+            We offer a low price guarantee on all of our Computer, PC and Laptop repair.
+            We have experience from all Computer, PC and Laptop and more.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid count_numbers_section">
+        <div class="row">
+          <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
+            <div class="info">
+              <h2 class="title h4 font--primary">Happy Clients</h2>
+              <h3 class="number h2">
+                <span data-counter-up="numbers">10000+</span>
+              </h3>
+            </div>
+          </div>
+          <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
+            <div class="info">
+              <h2 class="title h4 font--primary">Completed Deals</h2>
+              <h3 class="number h2">
+                <span data-counter-up="numbers">25000+</span>
+              </h3>
+            </div>
+          </div>
+          <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
+            <div class="info">
+              <h2 class="title h4 font--primary">Dealership</h2>
+              <h3 class="number h2">
+                <span data-counter-up="numbers">20+</span>
+              </h3>
+            </div>
+          </div>
+          <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
+            <div class="info">
+              <h2 class="title h4 font--primary">Award &amp; Recognize</h2>
+              <h3 class="number h2">
+                <span data-counter-up="numbers">10+</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="who_we_are_below_section">
+        <img src="img/who-we-are-image.jpg" alt="about-img" />
+        <div>
+          <h3 class="section-title">About Our Company</h3>
+          <div class="highlight-box">
+            <p class="content-text mb-0">
+              Our goal is to provide and manage fast and accurate computer
+              repair and sales service to our customers.
+            </p>
+            <br />
             <p class="content-text">
-              FamyInfotech is Authorized Distributor / Partner of Well Famous IT Company Since 1997. We providing you fast and accurate computer repair and sales service.
-              We offer a low price guarantee on all of our Computer, PC and Laptop repair. 
-              We have experience from all Computer, PC and Laptop and more.
+              "As an Authorized Distributor and Partner of leading IT
+              companies since 1997, FamyInfotech brings decades of expertise in
+              computers, PCs, and laptop solutions. We deliver fast, accurate
+              service with free diagnostics, followed by transparent repair
+              quotes. Our low-price guarantee ensures you receive exceptional
+              value for all your computer repair needs."
             </p>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- Our Business Section -->
+    <section id="our_business" class="common_section">
+      <div class="our_business_details_section">
+        <h1 class="hero-title">Our Business</h1>
+        <div class="container above_section">
+          <h2 class="hero-subtitle">
+            What We Do<br />
+            <span>Our Business</span>
+          </h2>
 
-        <div class="container-fluid count_numbers_section">
-          <div class="row">
-            <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
-              <div class="info">
-                <h2 class="title h4 font--primary">Happy Clients</h2>
-                <h3 class="number h2">
-                  <span data-counter-up="numbers">10000+</span>
-                </h3>
-              </div>
-            </div>
-            <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
-              <div class="info">
-                <h2 class="title h4 font--primary">Completed Deals</h2>
-                <h3 class="number h2">
-                  <span data-counter-up="numbers">25000+</span>
-                </h3>
-              </div>
-            </div>
-            <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
-              <div class="info">
-                <h2 class="title h4 font--primary">Dealership</h2>
-                <h3 class="number h2">
-                  <span data-counter-up="numbers">20+</span>
-                </h3>
-              </div>
-            </div>
-            <div class="counter--item col-md-3 col-xs-6 col-xxs-12">
-              <div class="info">
-                <h2 class="title h4 font--primary">Award &amp; Recognize</h2>
-                <h3 class="number h2">
-                  <span data-counter-up="numbers">10+</span>
-                </h3>
-              </div>
-            </div>
+          <p class="content-text">
+            At FamyInfotech, we are passionate about powering your digital
+            world. Established with a commitment to quality, reliability, and
+            customer satisfaction, we specialize in providing high-performance
+            computer components for gamers, creators, IT professionals, and
+            everyday users alike. Our mission is simple: to be your one-stop
+            destination for all things tech. Whether you're building a custom
+            PC, upgrading your current setup, or seeking expert advice, our
+            knowledgeable team is here to guide you every step of the way.
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid business_image_section">
+        <div class="business_image_container_row">
+          <div class="business_image_container">
+            <img src="img/business_1.webp" alt="business-image-1" class="business_image" />
+            <p>Custom PC Building</p>
+          </div>
+          <div class="business_image_container">
+            <img src="img/business_2.jpg" alt="business-image-1" class="business_image" />
+            <p>Repair & Upgrade Services</p>
+          </div>
+          <div class="business_image_container">
+            <img src="img/business_3.jpg" alt="business-image-1" class="business_image" />
+            <p>Corporate & Bulk Orders</p>
+          </div>
+          <div class="business_image_container">
+            <img src="img/business_4.jpg" alt="business-image-1" class="business_image" />
+            <p>IT Products & Accessories Sales</p>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- Our Dealership Section -->
+    <section id="our_dealership" class="common_section">
+      <div class="our_business_details_section">
+        <h1 class="hero-title">Our Dealership</h1>
+        <div class="container above_section">
+          <h2 class="hero-subtitle">
+            Who we own as <br />
+            <span>Our Dealership</span>
+          </h2>
 
-        <div class="who_we_are_below_section">
-          <img src="img/who-we-are-image.jpg" alt="about-img" />
-          <div>
-            <h3 class="section-title">About Our Company</h3>
-            <div class="highlight-box">
-              <p class="content-text mb-0">
-                Our goal is to provide and manage fast and accurate computer
-                repair and sales service to our customers.
-              </p>
-              <br />
-              <p class="content-text">
-                "As an Authorized Distributor and Partner of leading IT
-                companies since 1997, FamyInfotech brings decades of expertise in
-                computers, PCs, and laptop solutions. We deliver fast, accurate
-                service with free diagnostics, followed by transparent repair
-                quotes. Our low-price guarantee ensures you receive exceptional
-                value for all your computer repair needs."
-              </p>
-            </div>
+          <p class="content-text">
+            At FamyInfotech, we are passionate about powering your digital
+            world. Established with a commitment to quality, reliability, and
+            customer satisfaction, we specialize in providing high-performance
+            computer components for gamers, creators, IT professionals, and
+            everyday users alike. Our mission is simple: to be your one-stop
+            destination for all things tech. Whether you're building a custom
+            PC, upgrading your current setup, or seeking expert advice, our
+            knowledgeable team is here to guide you every step of the way.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="experts--section pd--100-0">
+          <div class="deal">
+            <img class="dealer" src="http://www.compucrafts.co.in/upload/gallery_image/img/acer.png" alt="an old car" />
+            <img class="dealer" src="http://www.compucrafts.co.in/upload/gallery_image/img/dell.png"
+              style="--c: #7b3b3b; --b: 1px; --s: 15px" alt="an old car" />
+            <img class="dealer" src="http://www.compucrafts.co.in/upload/gallery_image/img/lenovo.png"
+              alt="an old car" />
+            <img class="dealer" src="http://www.compucrafts.co.in/upload/gallery_image/img/hp.png"
+              style="--c: #7b3b3b; --b: 1px; --s: 15px" alt="an old car" />
           </div>
         </div>
-      </section>
-      <!-- Our Business Section -->
-      <section id="our_business" class="common_section">
-        <div class="our_business_details_section">
-          <h1 class="hero-title">Our Business</h1>
-          <div class="container above_section">
-            <h2 class="hero-subtitle">
-              What We Do<br />
-              <span>Our Business</span>
-            </h2>
+      </div>
 
-            <p class="content-text">
-              At FamyInfotech, we are passionate about powering your digital
-              world. Established with a commitment to quality, reliability, and
-              customer satisfaction, we specialize in providing high-performance
-              computer components for gamers, creators, IT professionals, and
-              everyday users alike. Our mission is simple: to be your one-stop
-              destination for all things tech. Whether you're building a custom
-              PC, upgrading your current setup, or seeking expert advice, our
-              knowledgeable team is here to guide you every step of the way.
-            </p>
-          </div>
-        </div>
-        <div class="container-fluid business_image_section">
-          <div class="business_image_container_row">
-            <div class="business_image_container">
-              <img
-                src="img/business_1.webp"
-                alt="business-image-1"
-                class="business_image"
-              />
-              <p>Custom PC Building</p>
+      <div class="testimonial--section pd--100-0 bg--img bg--overlay">
+        <div class="testimonial--slider-wrapper bg--overlay">
+          <div class="container">
+            <div class="section--title">
+              <h2 class="h2">Satisfied Client's</h2>
+              <p>What Our Client's Say</p>
             </div>
-            <div class="business_image_container">
-              <img
-                src="img/business_2.jpg"
-                alt="business-image-1"
-                class="business_image"
-              />
-              <p>Repair & Upgrade Services</p>
-            </div>
-            <div class="business_image_container">
-              <img
-                src="img/business_3.jpg"
-                alt="business-image-1"
-                class="business_image"
-              />
-              <p>Corporate & Bulk Orders</p>
-            </div>
-            <div class="business_image_container">
-              <img
-                src="img/business_4.jpg"
-                alt="business-image-1"
-                class="business_image"
-              />
-              <p>IT Products & Accessories Sales</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Our Dealership Section -->
-      <section id="our_dealership" class="common_section">
-        <div class="our_business_details_section">
-          <h1 class="hero-title">Our Dealership</h1>
-          <div class="container above_section">
-            <h2 class="hero-subtitle">
-              Who we own as <br />
-              <span>Our Dealership</span>
-            </h2>
-
-            <p class="content-text">
-              At FamyInfotech, we are passionate about powering your digital
-              world. Established with a commitment to quality, reliability, and
-              customer satisfaction, we specialize in providing high-performance
-              computer components for gamers, creators, IT professionals, and
-              everyday users alike. Our mission is simple: to be your one-stop
-              destination for all things tech. Whether you're building a custom
-              PC, upgrading your current setup, or seeking expert advice, our
-              knowledgeable team is here to guide you every step of the way.
-            </p>
-          </div>
-        </div>
-
-        <div class="container-fluid">
-          <div class="experts--section pd--100-0">
-              <div class="deal">
-                <img
-                  class="dealer"
-                  src="http://www.compucrafts.co.in/upload/gallery_image/img/acer.png"
-                  alt="an old car"
-                />
-                <img
-                  class="dealer"
-                  src="http://www.compucrafts.co.in/upload/gallery_image/img/dell.png"
-                  style="--c: #7b3b3b; --b: 1px; --s: 15px"
-                  alt="an old car"
-                />
-                <img
-                  class="dealer"
-                  src="http://www.compucrafts.co.in/upload/gallery_image/img/lenovo.png"
-                  alt="an old car"
-                />
-                <img
-                  class="dealer"
-                  src="http://www.compucrafts.co.in/upload/gallery_image/img/hp.png"
-                  style="--c: #7b3b3b; --b: 1px; --s: 15px"
-                  alt="an old car"
-                />
-              </div>
-          </div>
-        </div>
-
-        <div class="testimonial--section pd--100-0 bg--img bg--overlay">
-          <div class="testimonial--slider-wrapper bg--overlay">
-            <div class="container">
-              <div class="section--title">
-                <h2 class="h2">Satisfied Client’s</h2>
-                <p>What Our Client’s Say</p>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="testimonial--item">
-                    <div class="testimonial--content">
-                      <blockquote>
-                        <p>
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                          We as an company are highly satisfy the prompt and
-                          kind of services provided by to Enlighten.
-                          <i class="fa fa-quote-right" aria-hidden="true"></i>
-                        </p>
-                      </blockquote>
-                    </div>
-                    <div class="testimonial--rating">
-                      <ul class="nav">
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star-half-o" aria-hidden="true"></i></i></li>
-                      </ul>
-                    </div>
-                    <div class="testimonial--info">
-                      <div class="content">
-                        <h3 class="h5">Enlighten Infosystems</h3>
-                        <p>Owner</p>
-                      </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="testimonial--item">
+                  <div class="testimonial--content">
+                    <blockquote>
+                      <p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        We as an company are highly satisfy the prompt and
+                        kind of services provided by to Enlighten.
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                      </p>
+                    </blockquote>
+                  </div>
+                  <div class="testimonial--rating">
+                    <ul class="nav">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star-half-o" aria-hidden="true"></i></i></li>
+                    </ul>
+                  </div>
+                  <div class="testimonial--info">
+                    <div class="content">
+                      <h3 class="h5">Enlighten Infosystems</h3>
+                      <p>Owner</p>
                     </div>
                   </div>
                 </div>
@@ -275,37 +282,169 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- Contact Us Section -->
-      <section id="contact_us" class="common_section">
-        <div class="contact_us_details_section">
-          <h1 class="hero-title">Contact Us</h1>
-          <div class="container above_section">
-            <h2 class="hero-subtitle">
-              Your tech journey starts with us<br />
-              <span>Contact Us</span>
-            </h2>
+      </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section id="contact_us" class="common_section">
+      <div class="contact_us_details_section">
+        <h1 class="hero-title">Contact Us</h1>
+        <div class="container above_section">
+          <h2 class="hero-subtitle">
+            Your tech journey starts with us<br />
+            <span>Contact Us</span>
+          </h2>
 
-            <p class="content-text">
-              Have questions, need a custom PC, or looking for bulk IT
-              solutions? We're here to help! Whether you're a gamer, a creative
-              professional, or a business in need of reliable hardware, our team
-              is ready to assist you with expert advice and prompt support.
-              Reach out via phone, email, or visit our store — let’s power up
-              your tech journey together.
-            </p>
+          <p class="content-text">
+            Have questions, need a custom PC, or looking for bulk IT
+            solutions? We're here to help! Whether you're a gamer, a creative
+            professional, or a business in need of reliable hardware, our team
+            is ready to assist you with expert advice and prompt support.
+            Reach out via phone, email, or visit our store — let's power up
+            your tech journey together.
+          </p>
+        </div>
+      </div>
+
+      <div class="container contact-details-section pb-5">
+        <div class="row">
+          <!-- Contact Information -->
+          <div class="col-lg-4">
+            <div class="contact-info p-4 bg-light rounded shadow-sm">
+              <h3 class="mb-4">Get in Touch</h3>
+              <div class="d-flex mb-4">
+                <i class="fa fa-map-marker fa-2x me-3 text-primary"></i>
+                <div>
+                  <h5 class="mb-2">Our Location</h5>
+                  <p class="mb-0">6, Ground Floor, Opposite Silverline Complex, Sayajiganj, Vadodara, INDIA</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <i class="fa fa-phone fa-2x me-3 text-primary"></i>
+                <div>
+                  <h5 class="mb-2">Phone Number</h5>
+                  <p class="mb-1">+91 9824252230</p>
+                  <p class="mb-0">+91 9157084821</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <i class="fa fa-envelope fa-2x me-3 text-primary"></i>
+                <div>
+                  <h5 class="mb-2">Email Address</h5>
+                  <p class="mb-0">info@famyinfotech.com</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="fa fa-clock-o fa-2x me-3 text-primary"></i>
+                <div>
+                  <h5 class="mb-2">Working Hours</h5>
+                  <p class="mb-0">Monday - Saturday: 10:00 AM - 7:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-8">
+            <div class="contact-form p-4 bg-light rounded shadow-sm">
+              <h3 class="mb-4">Send us a Message</h3>
+              <form id="inquiryForm" action="https://formsubmit.co/ravip03202@gmail.com" method="POST">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
           </div>
         </div>
-      </section>
-      <div id="footer-wide" class="container-wide">
-        <footer id="footer">
-          ©2025 FamyInfotech • 6, Ground Floor, Opposite Silverline Complex, Sayajiganj, Vadodara, INDIA
-        </footer>
       </div>
+    </section>
+
+    <div id="footer-wide" class="container-wide">
+      <footer id="footer">
+        ©2025 FamyInfotech • 6, Ground Floor, Opposite Silverline Complex, Sayajiganj, Vadodara, INDIA
+      </footer>
     </div>
+  </div>
 
 
-    <!-- Bootstrap 5 JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Navbar Active State Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all sections and nav links
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+      // Create Intersection Observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Remove active class from all links
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+            });
+
+            // Add active class to corresponding link
+            const id = entry.target.getAttribute('id');
+            const activeLink = document.querySelector(`.navbar-nav .nav-link[href="#${id}"]`);
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
+          }
+        });
+      }, {
+        threshold: 0.5, // Trigger when section is 50% visible
+        rootMargin: `-${navbarHeight}px 0px 0px 0px` // Offset for navbar
+      });
+
+      // Observe all sections
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+
+      // Handle click events on nav links
+      navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+
+          // Calculate position with offset
+          const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+
+          // Smooth scroll to section with offset
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
 </html>
