@@ -8,13 +8,18 @@ body {
 
 .section_container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .common_section {
   width: 100%;
   height: auto;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
+}
+
+#our_business.common_section,
+#our_dealership.common_section {
+  padding-bottom: 0;
 }
 
 #who_we_are {
@@ -91,15 +96,6 @@ body {
   text-align: center;
 }
 
-/* .who_we_are_below_section .section-title:after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: #222267;
-  margin: 15px auto 0;
-  width: 20%;
-} */
-
 .who_we_are_below_section .highlight-box {
   background-color: white;
   border-left: 4px solid #222267;
@@ -122,7 +118,6 @@ body {
 }
 
 /* Our Business Section */
-
 .business_image_section {
   background-color: #222267;
   padding: 4rem;
@@ -158,6 +153,134 @@ body {
   border-radius: 50%;
 }
 
+/*Our Dealer Section CSS*/
+.deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+}
+
+.dealer {
+  --s: 15px;
+  --b: 2px;
+  --w: 190px;
+  --c: #222267;
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2 * var(--s));
+  --_g: var(--c) var(--b), #0000 0 calc(100% - var(--b)), var(--c) 0;
+  background: linear-gradient(var(--_g)) 50% / 100% var(--_i, 100%) no-repeat,
+    linear-gradient(90deg, var(--_g)) 50% / var(--_i, 100%) 100% no-repeat;
+  outline: calc(var(--w) / 2) solid rgba(109, 107, 107, 0.06);
+  outline-offset: calc(var(--w) / -2 - 2 * var(--s));
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.dealer:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s) / -2);
+  --_i: calc(100% - 2 * var(--s));
+}
+
+.bg--img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("img/bgtestimonials.jpg");
+}
+
+.pd--100-0 {
+  padding: 3rem 0;
+}
+
+.testimonial--section.bg--overlay:before {
+  background-color: #222267;
+  opacity: 0.8;
+  clip-path: polygon(0 0, 80% -100%, 50% 100%, 0% 100%);
+}
+
+.bg--overlay {
+  position: relative;
+  color: #fff;
+  z-index: 0;
+}
+
+.bg--overlay:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  z-index: -1;
+}
+
+.section--title .h2 {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+}
+
+.section--title p {
+  font-size: 14px;
+  margin: 1rem 0;
+}
+
+.testimonial--rating {
+  margin-top: 21px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.testimonial--rating .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.testimonial--rating li {
+  float: left;
+}
+
+.testimonial--rating li + li {
+  margin-left: 8px;
+}
+
+.fa-star:before {
+  content: "\f005";
+}
+
+/*Navbar CSS*/
+.navbar {
+  inset: 0;
+  z-index: 1020;
+  display: block;
+  content: "";
+  box-shadow: 0 0.5rem 1rem #00000026, inset 0 -1px #ffffff26;
+  top: 0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #222267;
+  font-weight: 600;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #ffffff;
+}
+
+.logo_img {
+  height: 80px;
+}
 
 /*Footer CSS*/
 #footer-wide {
