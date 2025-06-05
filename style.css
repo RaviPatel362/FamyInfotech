@@ -372,9 +372,6 @@ body {
 }
 
 /* Carousel Styles */
-#mainCarousel {
-  margin-bottom: 3rem;
-}
 
 #mainCarousel .carousel-item {
   height: 600px;
