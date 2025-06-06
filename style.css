@@ -292,6 +292,7 @@ body {
   position: sticky;
   width: 100%;
   bottom: 0;
+  z-index: 9;
 }
 
 #footer {
@@ -428,6 +429,45 @@ body {
 }
 
 
+/*Media Queries*/
+
+@media screen and (max-width:1399px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .logo_img {
+    height: 75px;
+  }
+}
+
+@media screen and (min-width:1010px) {
+  .who_we_are_below_section img {
+    display: table-cell;
+    width: 45%;
+    object-fit: scale-down;
+  }
+
+  .testimonial--slider-wrapper .container {
+    max-width: 100% !important;
+    margin-left: 0;
+  }
+
+  .count_numbers_section {
+    background-color: #222267;
+    padding: 4rem 1.5rem;
+    margin: 0;
+  }
+
+  .counter--item .info .title {
+    font-size: calc(1.2rem + .3vw);
+  }
+  
+  #who_we_are.common_section{
+    padding-bottom: 0;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -438,6 +478,17 @@ body {
 @media screen and (max-width:990px) {
   .deal {
     gap: 40px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+
+  .deal .dealer {
+    margin: 0 auto;
+  }
+
+  .testimonial--slider-wrapper.testimonial--slider-wrapper .container.container {
+    max-width: 100%;
+    margin-left: 0;
   }
 
   .nav-item {
@@ -446,6 +497,28 @@ body {
 
   .navbar-nav {
     border-top: 1px solid gray;
+  }
+
+  .who_we_are_below_section {
+    gap: 1.8rem;
+    margin: 0 auto;
+  }
+
+  .who_we_are_below_section img {
+    object-fit: cover;
+  }
+
+  .above_section {
+    padding: 3rem 0;
+  }
+
+  .testimonial--slider-wrapper.testimonial--slider-wrapper .container.container {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .business_image_container {
+    text-align: center;
   }
 }
 
@@ -470,9 +543,11 @@ body {
 
   .count_numbers_section div {
     display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 1.5rem;
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
   }
 
   .who_we_are_below_section {
@@ -497,10 +572,60 @@ body {
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width:600px) and (max-width:758px) {
+  .count_numbers_section div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+  }
 
+  #mainCarousel .carousel-item {
+    height: 260px;
+  }
+
+  .count_numbers_section {
+    margin: 0;
+  }
+
+  #who_we_are.common_section {
+    padding-bottom: 0;
+  }
+
+  .count_numbers_section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .count_numbers_section div {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonial--slider-wrapper .container {
+    max-width: 415px;
+    margin-left: 0;
+  }
+
+  .business_image_container_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .above_section {
+    padding: 3rem 0;
+  }
+
+  .testimonial--slider-wrapper.testimonial--slider-wrapper .container.container {
+    max-width: 55%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
   .logo_img {
-    height: 50px;
+    height: 65px;
   }
 
   .content-text,
@@ -529,5 +654,35 @@ body {
 
   .testimonial--section.bg--overlay:before {
     clip-path: none;
+  }
+
+  .count_numbers_section .row {
+    gap: 2.5rem;
+  }
+
+  .count_numbers_section {
+    margin: 0 0;
+  }
+
+  #who_we_are.common_section {
+    padding-bottom: 0;
+  }
+
+  .content-text {
+    word-break: break-word;
+    margin-bottom: 0;
+  }
+
+  .who_we_are_below_section .highlight-box {
+    margin: 30px 15px 30px 15px;
+  }
+
+  .who_we_are_below_section .content-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  #mainCarousel .carousel-item {
+    height: 300px;
   }
 }
