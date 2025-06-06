@@ -434,3 +434,100 @@ body {
     gap: 1rem;
   }
 }
+
+@media screen and (max-width:990px) {
+  .deal {
+    gap: 40px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    border-top: 1px solid gray;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler-icon {
+    width: 1.25em;
+    height: 1.25em;
+  }
+
+  .deal {
+    display: grid;
+    grid-template-columns: 30% 30%;
+  }
+
+  .dealer {
+    justify-self: center;
+  }
+
+  .contact-details-section .row .col-lg-4 {
+    margin-bottom: 2rem;
+  }
+
+  .count_numbers_section div {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .who_we_are_below_section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .who_we_are_below_section img {
+    width: 100%;
+  }
+
+  .who_we_are_below_section .highlight-box {
+    margin: 30px 30px 30px 20px;
+  }
+
+  #footer-wide {
+    background: #555;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  .logo_img {
+    height: 50px;
+  }
+
+  .content-text,
+  .bg--overlay,
+  .contact-details-section {
+    padding: 1rem;
+  }
+
+  .deal {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .count_numbers_section div {
+    grid-template-columns: 100%;
+  }
+
+  .business_image_container_row {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .business_image_container {
+    text-align: center;
+  }
+
+  .testimonial--section.bg--overlay:before {
+    clip-path: none;
+  }
+}
